@@ -4,6 +4,7 @@
     <list default="true" id="99365b88-2e2e-4b60-be48-2d7476094364" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/webapp/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,6 +33,7 @@
           <entry key="Jenkinsfile" value="2" />
           <entry key="iml" value="2" />
           <entry key="java" value="2" />
+          <entry key="jsp" value="1" />
           <entry key="md" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -41,6 +43,7 @@
           <entry key="Groovy" value="1" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="JAVA" value="2" />
+          <entry key="JSP" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="2" />
@@ -48,19 +51,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Jenkinsfile" value="266" />
+          <entry key="Jenkinsfile" value="561" />
           <entry key="java" value="83" />
+          <entry key="jsp" value="10" />
           <entry key="md" value="5" />
-          <entry key="txt" value="59" />
+          <entry key="txt" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="231" />
+          <entry key="Groovy" value="526" />
           <entry key="JAVA" value="83" />
+          <entry key="JSP" value="10" />
           <entry key="Jenkins file" value="33" />
           <entry key="Markdown" value="5" />
-          <entry key="PLAIN_TEXT" value="61" />
+          <entry key="PLAIN_TEXT" value="98" />
         </counts>
       </usages-collector>
     </session>
@@ -70,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="504">
+              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -99,6 +104,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/example/Greeter.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/example/package-info.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
       </list>
     </option>
@@ -109,10 +115,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="153" />
-    <option name="width" value="1440" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="1103" />
+    <option name="width" value="720" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -143,6 +148,32 @@
             <path>
               <item name="maven-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="maven-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,7 +294,7 @@
       <workItem from="1541086029234" duration="96000" />
       <workItem from="1541086145749" duration="477000" />
       <workItem from="1541086712438" duration="1211000" />
-      <workItem from="1541122572428" duration="446000" />
+      <workItem from="1541122572428" duration="3352000" />
     </task>
     <task id="LOCAL-00001" summary="add Jenkinsfile">
       <created>1541092651889</created>
@@ -286,17 +317,31 @@
       <option name="project" value="LOCAL" />
       <updated>1541125164657</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update Jenkinsfile with comment">
+      <created>1541125403563</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541125403563</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add stage &quot;deploy to staging&quot;">
+      <created>1541128596932</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541128596932</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6015000" />
+    <option name="totallyTimeSpent" value="8921000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="153" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="1103" width="1432" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17596567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17697842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -339,7 +384,9 @@
     <MESSAGE value="add Jenkinsfile" />
     <MESSAGE value="update Jenkinsfile" />
     <MESSAGE value="update Jenkinsfile without &quot;tools: localMaven&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Jenkinsfile without &quot;tools: localMaven&quot;" />
+    <MESSAGE value="update Jenkinsfile with comment" />
+    <MESSAGE value="add stage &quot;deploy to staging&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add stage &quot;deploy to staging&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -377,15 +424,22 @@
     <entry file="file://$PROJECT_DIR$/webapp/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+    <entry file="file://$PROJECT_DIR$/maven-project.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maven-project.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
